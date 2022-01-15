@@ -160,7 +160,49 @@ footer p {
 }
 
 /* Media Query */
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
 
+@media (min-width: 992px) and (max-width: 1280px) {
+  /* CSS */
+  .item-card {
+    width: 280px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 991px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS */
+  .logo-text {
+    font-size: 20px;
+  }
+  .item-card {
+    width: 310px;
+  }
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .logo {
+    width: 30%;
+  }
+  .logo-text {
+    font-size: 20px;
+  }
+  .btn {
+    padding: 7px 12px;
+    display: inline-block;
+    width: 160px;
+  }
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -206,8 +248,3 @@ footer p {
     justify-content: center;
   }
 }
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
