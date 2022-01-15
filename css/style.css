@@ -71,6 +71,10 @@ nav ul {
 }
 .header-top-left p {
   margin: 25px 0;
+  transition: 2s ease-in-out;
+}
+.header-top-left:hover p {
+  transform: scale(1.1);
 }
 .header-top-right {
   background-image: url("../images/circle-design.svg");
