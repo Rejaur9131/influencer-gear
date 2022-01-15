@@ -28,6 +28,10 @@ h2 {
 h3 {
   font-size: 24px;
 }
+h5 {
+  justify-content: center;
+  align-items: center;
+}
 img {
   width: 100%;
 }
