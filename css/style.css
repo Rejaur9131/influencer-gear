@@ -152,6 +152,12 @@ footer p {
   font-size: 12px;
   margin: 10px 0;
 }
+.fab {
+  color: #fafafa;
+  font-size: 30;
+  border: 6px solid #3a3a3a;
+  border-radius: 50%;
+}
 
 /* Media Query */
 
